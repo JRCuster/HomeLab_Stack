@@ -10,8 +10,8 @@
         "attributes": {
           "editable": true,
           "id": "joseph_custer",
-          "latitude": 41.1659072,
-          "longitude": -95.9086696,
+          "latitude": 41.1659089,
+          "longitude": -95.9086663,
           "gps_accuracy": 11,
           "source": "device_tracker.sm_g998u",
           "user_id": "88c18797b3a84973ac640194cbad7ee3",
@@ -21,15 +21,15 @@
           "friendly_name": "Joseph Custer"
         },
         "last_changed": "2024-01-05T02:50:34.885411+00:00",
-        "last_updated": "2024-01-05T21:29:45.804153+00:00",
+        "last_updated": "2024-01-05T21:42:28.905347+00:00",
         "context": {
-          "id": "01HKDRGD2CM5T8MZS5M9FVX3Y1",
+          "id": "01HKDS7P99VE58A68YKC4GD6ET",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-05T21:30:52.104981+00:00"
+      "last_seen": "2024-01-05T21:45:52.088800+00:00"
     },
     {
       "state": {
@@ -47,7 +47,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-05T21:30:52.104981+00:00"
+      "last_seen": "2024-01-05T21:45:52.088800+00:00"
     },
     {
       "state": {
@@ -75,7 +75,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-05T21:30:52.104981+00:00"
+      "last_seen": "2024-01-05T21:45:52.088800+00:00"
     },
     {
       "state": {
@@ -103,7 +103,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-05T21:30:52.104981+00:00"
+      "last_seen": "2024-01-05T21:45:52.088800+00:00"
     },
     {
       "state": {
@@ -111,8 +111,8 @@
         "state": "not_home",
         "attributes": {
           "source_type": "gps",
-          "latitude": 41.1659072,
-          "longitude": -95.9086696,
+          "latitude": 41.1659089,
+          "longitude": -95.9086663,
           "gps_accuracy": 11,
           "altitude": 324,
           "course": 0,
@@ -120,63 +120,63 @@
           "vertical_accuracy": 0,
           "friendly_name": "SM-G998U"
         },
-        "last_changed": "2024-01-05T21:29:45.804009+00:00",
-        "last_updated": "2024-01-05T21:29:45.804009+00:00",
+        "last_changed": "2024-01-05T21:42:28.905137+00:00",
+        "last_updated": "2024-01-05T21:42:28.905137+00:00",
         "context": {
-          "id": "01HKDRGD2CXFT2VS0VN430FDXK",
+          "id": "01HKDS7P99KEQ1XW0264PFABFW",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-05T21:30:52.104981+00:00"
+      "last_seen": "2024-01-05T21:45:52.088800+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.sm_g998u_battery_level",
-        "state": "85",
+        "state": "84",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery-80",
+          "icon": "mdi:battery-charging-wireless-80",
           "friendly_name": "SM-G998U Battery level"
         },
-        "last_changed": "2024-01-05T20:50:10.759935+00:00",
-        "last_updated": "2024-01-05T20:50:10.759935+00:00",
+        "last_changed": "2024-01-05T21:31:06.041197+00:00",
+        "last_updated": "2024-01-05T21:33:59.085953+00:00",
         "context": {
-          "id": "01HKDP7XP7XT57PS24NHTPZAY9",
+          "id": "01HKDRR4DD9M50PYRTQDS8ZJ0T",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 85,
+        "native_value": 84,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2024-01-05T21:30:52.104981+00:00"
+      "last_seen": "2024-01-05T21:45:52.088800+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.sm_g998u_battery_state",
-        "state": "not_charging",
+        "state": "charging",
         "attributes": {
-          "icon": "mdi:battery",
+          "icon": "mdi:battery-plus",
           "friendly_name": "SM-G998U Battery state"
         },
-        "last_changed": "2024-01-05T20:50:19.714932+00:00",
-        "last_updated": "2024-01-05T20:50:19.714932+00:00",
+        "last_changed": "2024-01-05T21:33:59.086060+00:00",
+        "last_updated": "2024-01-05T21:33:59.086060+00:00",
         "context": {
-          "id": "01HKDP86E2MGWRHV9XFTKT5GNK",
+          "id": "01HKDRR4DECPRGZ0QSBZ32W763",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "not_charging",
+        "native_value": "charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-01-05T21:30:52.104981+00:00"
+      "last_seen": "2024-01-05T21:45:52.088800+00:00"
     },
     {
       "state": {
@@ -186,10 +186,10 @@
           "icon": "mdi:battery-charging-wireless",
           "friendly_name": "SM-G998U Charger type"
         },
-        "last_changed": "2024-01-05T20:50:19.715049+00:00",
-        "last_updated": "2024-01-05T20:50:19.715049+00:00",
+        "last_changed": "2024-01-05T21:33:59.086114+00:00",
+        "last_updated": "2024-01-05T21:33:59.086114+00:00",
         "context": {
-          "id": "01HKDP86E31X85X5H6CSK1C7NP",
+          "id": "01HKDRR4DEY4XE8230ADRFN0GV",
           "parent_id": null,
           "user_id": null
         }
@@ -198,7 +198,7 @@
         "native_value": "wireless",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-01-05T21:30:52.104981+00:00"
+      "last_seen": "2024-01-05T21:45:52.088800+00:00"
     }
   ]
 }
