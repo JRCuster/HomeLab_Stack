@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "joseph_custer",
+        "name": "Joseph Custer",
+        "user_id": "88c18797b3a84973ac640194cbad7ee3",
+        "device_trackers": [
+          "device_tracker.sm_g998u"
+        ]
+      }
+    ]
+  }
+}

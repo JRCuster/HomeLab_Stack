@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "name": "Living Room",
+        "id": "living_room",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Kitchen",
+        "id": "kitchen",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Bedroom",
+        "id": "bedroom",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Entrance",
+        "id": "entrance",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Front Door",
+        "id": "front_door",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Office",
+        "id": "office",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Deck Plug",
+        "id": "deck_plug",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Hallway",
+        "id": "hallway",
+        "picture": null
+      }
+    ]
+  }
+}

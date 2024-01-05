@@ -30,6 +30,56 @@ services:
       - host.docker.internal:host-gateway
     restart: unless-stopped
 
+  homeassistant:
+    container_name: home-assistant
+    image: homeassistant/home-assistant:stable
+    volumes:
+      - ./homeassistant_config:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    ports:
+      - 8123:8123
+    dns: 8.8.8.8
+
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    volumes:
+      - ./pihole_config:/etc/pihole
+      - ./pihole_dnsmasq:/etc/dnsmasq.d
+    ports:
+      - 53:53/tcp
+      - 53:53/udp
+      - 67:67/udp
+      - 8089:80
+      - 443:443
+    environment:
+      TZ: 'America/Chicago' # Change this to your timezone
+    restart: unless-stopped
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    volumes:
+    - type: volume
+      source: mongodb_data
+      target: /data/db
+    ports:
+      - 27017:27017
+    restart: unless-stopped
+
+  text-generation-ui:
+    container_name: text-generation-ui
+    image: textgen/text-generation-ui:latest
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+
 volumes:
   ollama: {}
   ollama-webui: {}
+  homeassistant: {}
+  pihole_config: {}
+  pihole_dnsmasq: {}
+  mongodb_data: {}
+

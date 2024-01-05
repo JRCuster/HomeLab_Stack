@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "drrohin",
+        "password": "JDJiJDEyJHh6TmNUL2hYM0YweS5hZGRhSm5GLk85QWI3WlR3M3ZwLmYyZ0dTQzBGTmlQT0NjdW44S2ZX"
+      }
+    ]
+  }
+}

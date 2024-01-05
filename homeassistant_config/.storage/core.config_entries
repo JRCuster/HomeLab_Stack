@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "f298f5edff67ea6c4c517469f08f56b5",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7f1abb8ebaccd0e044cfd1ef886e6359",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "shopping_list",
+        "title": "Shopping list",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": "shopping_list",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c72e2f748c5c15bda6b09731bf06ffbf",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "google_translate",
+        "title": "Google Translate text-to-speech",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c7a727bcd789aa1630eafce6c6f99327",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "75abf9a05e4c8f4b66642429c58ead53",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "8bd41f6b3bc31c104a02da92f03026d4",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {
+          "sidepanel_title": "HACS",
+          "sidepanel_icon": "hacs:hacs",
+          "release_limit": 5,
+          "country": "ALL",
+          "appdaemon": false,
+          "netdaemon": false,
+          "debug": false,
+          "experimental": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0d8a707eb8da2909ff7c8f6bcc6fa206",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "wyzeapi",
+        "title": "",
+        "data": {
+          "username": "drrohinshadow@gmail.com",
+          "password": "fZKbeK#Xpr2F",
+          "access_token": "lvtx.ynMBPJ4idAJiU6fP7aQOtaJ1uiUX3tKiw29PrAnzWg9tVmSJwPGchmbuzRh+hGxcgsDv+imgCqc09MwoQThRxQfLFU3X6bwKWDWPSi9ccuzrf5tA1fVlli+JoF4b0U+gL7RkDcdpEkR4sjoUVx8/CtdOyKXCVeP4/Lqukh6EdBI3Tjb8fRu7pUKa5L82593fPuXRpQ==",
+          "refresh_token": "lvtx.0AUxf6wr8j5vCUpHX6/AlxfykpUcjiulewh+/MUvsKWmZq8E23OgZHzhxcZVquhOY5pCGoAU386wfzzZubRglSFPv9TYJrGzPT/+bTWlNLk9EL/s/bw6XJ9A1Ab3w9W6huedI+ywWgymXA7YRLGa87PH35gycW+Ul772tcA1JlnRj9wUV4rt/aOZPIM3lv3hUA8x+Q==",
+          "refresh_time": "1704594946.3829966"
+        },
+        "options": {
+          "bulb_local_control": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7acab744e0b71053340911a4b6126b5f",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "mobile_app",
+        "title": "SM-G998U",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2023.12.4-full (11898)",
+          "device_name": "SM-G998U",
+          "manufacturer": "samsung",
+          "model": "SM-G998U",
+          "os_name": "Android",
+          "os_version": "34",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "czqEupNAT3GxrxjK5BXhHs:APA91bH2pQlCMsouS-rjn-wK1rBpvQmyaMQDEsk6rgtTM2ouT72bk5tlj_IQgUJvBroWJHLJlbNjIjWM0W4mrI05gGy7k3GhEVe7mG_zYXIGf3BPSRc83yoAay4F9fOBnEIoTmPz66Ju"
+          },
+          "device_id": "fe5f59da84604278",
+          "webhook_id": "5282c3c32374e0afa9b884c46d8081dbe71f19d8fc6695f2dfd75efe2dfdca7a",
+          "user_id": "88c18797b3a84973ac640194cbad7ee3"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-fe5f59da84604278",
+        "disabled_by": null
+      }
+    ]
+  }
+}

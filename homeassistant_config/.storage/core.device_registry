@@ -1,0 +1,710 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "f298f5edff67ea6c4c517469f08f56b5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "3db31383f6781325017d049c048cee7e",
+        "identifiers": [
+          [
+            "sun",
+            "f298f5edff67ea6c4c517469f08f56b5"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "75abf9a05e4c8f4b66642429c58ead53"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "4b5b7bc8f6dda0d9a4ac44fbbfba5274",
+        "identifiers": [
+          [
+            "met",
+            "75abf9a05e4c8f4b66642429c58ead53"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "8bd41f6b3bc31c104a02da92f03026d4"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "bc28a09337c7626afe548d4912893e11",
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name_by_user": null,
+        "name": "HACS",
+        "serial_number": null,
+        "sw_version": "1.33.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "8bd41f6b3bc31c104a02da92f03026d4"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "8fe82b1928189ba91239b4912e2b8445",
+        "identifiers": [
+          [
+            "hacs",
+            "227452940"
+          ]
+        ],
+        "manufacturer": "SecKatie",
+        "model": "integration",
+        "name_by_user": null,
+        "name": "Wyze",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "64c0595d67bd13cc4f2564ce49ba6f3d",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F279D6198"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "HL_PAN3",
+        "name_by_user": null,
+        "name": "Living Room Deck Cam",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "entrance",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "83b129571613f76433cc70c4bbf9351b",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F27A7C89A"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "HL_PAN3",
+        "name_by_user": null,
+        "name": "Entrance Cam",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "hallway",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5edbc0230564ec38596cb26230821a16",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "GW_BE1_7C78B2A48E8E"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "GW_BE1",
+        "name_by_user": null,
+        "name": "Front door",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c16885451b930504264621122f987f88",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EAD1D22"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WYZEC1-JZ",
+        "name_by_user": null,
+        "name": "Bedroom Deck Cam",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "office",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c82d4bd086900fd859c9496a34a2989d",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EAD1247"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WYZEC1-JZ",
+        "name_by_user": null,
+        "name": "Office Back Door Cam",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "office",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b67f14e40c9f6c4927deeed1e38f87d9",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F2721D3A0"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "HL_LSLP",
+        "name_by_user": null,
+        "name": "Wyze Light Strip Pro 2",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "office",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ec2c6c94b5293d67bbe7340eca8b2b71",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F2721D239"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "HL_LSLP",
+        "name_by_user": null,
+        "name": "Wyze Light Strip Pro 1",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "09940a33fe361a361daef93111420522",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "wyzeapi.wyze.notification.toggle"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WyzeNotificationToggle",
+        "name_by_user": null,
+        "name": "Wyze Notifications",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "deck_plug",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f048193e15bd26450223e7b8895b26a1",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B26121F5-0002"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "Unused",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c459e74b97ce75c1dcb52b0a4b5e1f53",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27B81EE"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Stove",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "31ca5e6d97a37abf05314a883237ecb3",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27B64D8"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Couch-R-Table",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "front_door",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2adba7efc05ee07e6192831003408666",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27C40DD"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Front Door",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "office",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "9233538344e330eb638b6fc774aecf47",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27B5D19"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Dining Room Fan 3",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "office",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c5e46df3cd3de1c7d2d8d528835f1428",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27F23D5"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Dining Room Fan 1",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "office",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "06e114eb4ef9fc20d762fe5209bd6122",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27AFD34"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Dining Room Fan 2",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "deck_plug",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5cf685d7698b43cf7e4244ba8e239cc5",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B26121F5"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO",
+        "name_by_user": null,
+        "name": "Wyze Plug Outdoor",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "06afd3bd8cd98c7fb6f56d3996ce097f",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27E6F69"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Couch-L-Table",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b14e7536aa310391ed2fb4ab688a4985",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B2814E44"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Lamp-1",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "deck_plug",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "44b7413412496222aa2ecf316dc18a39",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B26121F5-0001"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "Bedroom Deck Lights",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "815719d7a45a5740780945addff5c6ef",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27EC357"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Bedroom-1",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "69c3b5df7e7d47318df72424bb05ae71",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B2814E20"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Lamp-2",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "hallway",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ce71283a8963405598eb507e8adc4975",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27F0DF4"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Bedroom Hallway",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "0d8a707eb8da2909ff7c8f6bcc6fa206"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "11f023a9abd957b338612f3becec698e",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27ED011"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPA19C",
+        "name_by_user": null,
+        "name": "Bedroom-2",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "7acab744e0b71053340911a4b6126b5f"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c2a409b9141407be6c0fabe832aaaea0",
+        "identifiers": [
+          [
+            "mobile_app",
+            "fe5f59da84604278"
+          ]
+        ],
+        "manufacturer": "samsung",
+        "model": "SM-G998U",
+        "name_by_user": null,
+        "name": "SM-G998U",
+        "serial_number": null,
+        "sw_version": "34",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}
