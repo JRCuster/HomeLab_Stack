@@ -10,9 +10,9 @@
         "attributes": {
           "editable": true,
           "id": "joseph_custer",
-          "latitude": 41.1659048,
-          "longitude": -95.9086691,
-          "gps_accuracy": 12,
+          "latitude": 41.1659072,
+          "longitude": -95.9086696,
+          "gps_accuracy": 11,
           "source": "device_tracker.sm_g998u",
           "user_id": "88c18797b3a84973ac640194cbad7ee3",
           "device_trackers": [
@@ -21,15 +21,15 @@
           "friendly_name": "Joseph Custer"
         },
         "last_changed": "2024-01-05T02:50:34.885411+00:00",
-        "last_updated": "2024-01-05T21:14:28.486911+00:00",
+        "last_updated": "2024-01-05T21:29:45.804153+00:00",
         "context": {
-          "id": "01HKDQMD860DFZ0941BR0NH4WJ",
+          "id": "01HKDRGD2CM5T8MZS5M9FVX3Y1",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-05T21:15:52.118785+00:00"
+      "last_seen": "2024-01-05T21:30:52.104981+00:00"
     },
     {
       "state": {
@@ -47,7 +47,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-05T21:15:52.118785+00:00"
+      "last_seen": "2024-01-05T21:30:52.104981+00:00"
     },
     {
       "state": {
@@ -75,7 +75,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-05T21:15:52.118785+00:00"
+      "last_seen": "2024-01-05T21:30:52.104981+00:00"
     },
     {
       "state": {
@@ -103,7 +103,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-05T21:15:52.118785+00:00"
+      "last_seen": "2024-01-05T21:30:52.104981+00:00"
     },
     {
       "state": {
@@ -111,25 +111,25 @@
         "state": "not_home",
         "attributes": {
           "source_type": "gps",
-          "latitude": 41.1659048,
-          "longitude": -95.9086691,
-          "gps_accuracy": 12,
+          "latitude": 41.1659072,
+          "longitude": -95.9086696,
+          "gps_accuracy": 11,
           "altitude": 324,
           "course": 0,
           "speed": 0,
           "vertical_accuracy": 0,
           "friendly_name": "SM-G998U"
         },
-        "last_changed": "2024-01-05T21:14:28.486701+00:00",
-        "last_updated": "2024-01-05T21:14:28.486701+00:00",
+        "last_changed": "2024-01-05T21:29:45.804009+00:00",
+        "last_updated": "2024-01-05T21:29:45.804009+00:00",
         "context": {
-          "id": "01HKDQMD86EJB9ZMNGZBBZA0VQ",
+          "id": "01HKDRGD2CXFT2VS0VN430FDXK",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-05T21:15:52.118785+00:00"
+      "last_seen": "2024-01-05T21:30:52.104981+00:00"
     },
     {
       "state": {
@@ -154,7 +154,7 @@
         "native_value": 85,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2024-01-05T21:15:52.118785+00:00"
+      "last_seen": "2024-01-05T21:30:52.104981+00:00"
     },
     {
       "state": {
@@ -176,7 +176,7 @@
         "native_value": "not_charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-01-05T21:15:52.118785+00:00"
+      "last_seen": "2024-01-05T21:30:52.104981+00:00"
     },
     {
       "state": {
@@ -198,7 +198,7 @@
         "native_value": "wireless",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2024-01-05T21:15:52.118785+00:00"
+      "last_seen": "2024-01-05T21:30:52.104981+00:00"
     }
   ]
 }
